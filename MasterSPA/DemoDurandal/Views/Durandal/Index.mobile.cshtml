@@ -32,13 +32,6 @@
         </div>
         
         @Scripts.Render("~/Scripts/vendor.js")
-        @if (Request.Browser.IsMobileDevice)
-        {
-            <script type="text/javascript" src="~/Scripts/require.js" data-main="App/main-mobile"></script>
-        }
-        else
-        {
-            <script type="text/javascript" src="~/Scripts/require.js" data-main="App/main"></script>
-        }
+        <script type="text/javascript" src="~/Scripts/require.js" data-main="App/main-mobile"></script>
     </body>
 </html>

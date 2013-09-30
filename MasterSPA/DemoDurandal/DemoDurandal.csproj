@@ -138,10 +138,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App\main-mobile.js" />
     <Content Include="App\main.js" />
     <Content Include="App\viewmodels\flickr.js" />
     <Content Include="App\viewmodels\shell.js" />
     <Content Include="App\viewmodels\welcome.js" />
+    <Content Include="App\views-mobile\detail.html" />
+    <Content Include="App\views-mobile\flickr.html" />
+    <Content Include="App\views-mobile\shell.html" />
+    <Content Include="App\views-mobile\welcome.html" />
     <Content Include="App\views\detail.html" />
     <Content Include="App\views\flickr.html" />
     <Content Include="App\views\shell.html" />
@@ -201,6 +206,7 @@
     <Content Include="Views\Web.config" />
     <Content Include="weyland-config.js" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
+    <Content Include="Views\Durandal\Index.mobile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
